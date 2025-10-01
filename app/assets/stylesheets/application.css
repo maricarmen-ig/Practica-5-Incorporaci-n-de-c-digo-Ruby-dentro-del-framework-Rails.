@@ -1,0 +1,46 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+
+h1
+{
+color: black;
+height: 30px;
+text-align: center;
+}
+p
+{
+height:15px;
+text-align: center;
+}
+  .tabla-ejemplo {
+    border: 3px solid #333;
+    border-collapse: collapse;
+    width: 420px;
+  }
+  .tabla-ejemplo td, .tabla-ejemplo th {
+    border: 2px solid #333;
+    padding: 8px 10px;
+  }
+  .tabla-ejemplo .clave {
+    background: #2c6fbf;   /* azul */
+    color: #fff;
+    font-weight: 700;
+    width: 160px;
+  }
+  .tabla-ejemplo .valor {
+    background: #c8c1a0;   /* beige */
+  }
+
+  .contenedor {
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid #333;
+}

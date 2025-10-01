@@ -1,0 +1,21 @@
+
+
+
+
+<h1 style="font-size:48px; font-weight:800; margin:20px 0;">Segundo controlador</h1>
+<h2 style="margin:0 0 12px 0;">Hashes</h2>
+
+
+
+<div class="contenedor">
+  <table class="tabla-ejemplo">
+    <tbody>
+      <% @orden.each do |k| %>
+        <tr>
+          <td class="clave"><%= k %></td>
+          <td class="valor"><%= @datos_personas[k] %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
